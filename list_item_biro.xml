@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:paddingBottom="12dp">
+        <TextView
+            android:id="@+id/tvIdBiro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Id Biro"
+            />
+        <TextView
+            android:id="@+id/tvIdKecamatan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Id Kecamatan"
+            android:layout_below="@id/tvIdBiro"
+            />
+        <TextView
+            android:id="@+id/tvNamaBiro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Nama biro"
+            android:layout_below="@id/tvIdKecamatan"
+            />
+        <TextView
+            android:id="@+id/tvAlamat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Alamat"
+            android:layout_below="@id/tvNamaBiro"
+            />
+        <TextView
+            android:id="@+id/tvCp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Cp"
+            android:layout_below="@id/tvAlamat"
+            />
+        <TextView
+            android:id="@+id/tvWisata"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Wisata"
+            android:layout_below="@id/tvCp"
+            />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:background="@color/colorPrimary" />
+</LinearLayout>
